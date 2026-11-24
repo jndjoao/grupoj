@@ -9,3 +9,23 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
 
 .platform-note{margin:12px 0 0;font-size:12px;line-height:1.4;color:#9fb5cd}.platform-note strong{color:#e4efff}
+
+/* GRUPO J — CONDIÇÃO ESPECIAL DE LANÇAMENTO */
+
+.launch-offer{margin:27px 0 17px;padding:19px 22px 18px;border:1px solid rgba(95,156,255,.41);border-radius:17px;background:linear-gradient(125deg,rgba(15,62,128,.78),rgba(6,30,60,.94));box-shadow:0 13px 37px rgba(1,11,30,.11)}
+.launch-offer-head{display:flex;align-items:center;gap:8px;color:#a4c9ff;font-size:10px;letter-spacing:1.15px;font-weight:800}.offer-spark{color:#6eabff;font-size:16px}.launch-offer-main{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:8px 0 7px}.launch-offer-price{color:#fff;font:800 clamp(50px,4.7vw,68px)/1.12 Manrope,Arial,sans-serif;letter-spacing:-3.6px;white-space:nowrap}.launch-offer-price small{font-size:21px;letter-spacing:0;vertical-align:top;margin-right:6px;line-height:2.2}.launch-offer-price>span{font-size:14px;letter-spacing:0;font-weight:700;color:#b5d3ff;margin-left:6px}.launch-offer-period{padding:10px 14px;border-radius:12px;background:#0b56e9;color:#e4efff;text-align:center;font-size:11px;font-weight:700;line-height:1.5;letter-spacing:.6px}.launch-offer-period strong{color:#fff}.launch-offer-after{border-top:1px solid rgba(168,195,233,.18);padding-top:12px;color:#abc1db;font-size:12px}.launch-offer-after strong{color:#fff}.offer-benefits{display:flex;flex-wrap:wrap;column-gap:20px;row-gap:8px;color:#d1e4ff;font-size:12px;font-weight:700;margin:4px 0 25px}.signup-intro strong{color:#0a5de0}.price-promo{font-size:63px;letter-spacing:-4px;white-space:nowrap}.price-promo sup{font-size:20px;margin-right:4px}.price-promo sub{font-size:13px}.price-duration{display:inline-block;padding:8px 10px;border-radius:8px;background:#0b55ec;color:white;font-size:10px;font-weight:800;letter-spacing:1px}.price-block p strong{color:#fff}
+@media(max-width:1020px){.launch-offer{padding:17px}.launch-offer-main{flex-wrap:wrap}.launch-offer-price{font-size:53px}.launch-offer-period{font-size:10px}}
+@media(max-width:730px){.hero-grid{padding-top:30px}.hero h1{font-size:clamp(35px,8vw,45px)}.launch-offer{margin:23px 0 15px;padding:17px}.launch-offer-main{flex-wrap:nowrap}.launch-offer-price{font-size:clamp(43px,10vw,57px);letter-spacing:-3px}.launch-offer-price small{font-size:17px;margin-right:3px}.launch-offer-price>span{font-size:11px;margin-left:1px}.launch-offer-period{padding:9px;font-size:9px}.offer-benefits{font-size:11px;margin-bottom:20px}.price-promo{font-size:59px}}
+@media(max-width:380px){.launch-offer-price{font-size:42px}.launch-offer-period{padding:7px;font-size:8px}.launch-offer-head{font-size:8px}.launch-offer-after{font-size:11px}}
+
+/* Alinhamento tipográfico robusto para navegadores e preview */
+.launch-offer-price{display:flex;align-items:baseline;gap:5px;line-height:1;letter-spacing:0;font-size:initial}
+.launch-offer-price .curr{font-family:Manrope,Arial,sans-serif;font-size:20px;font-weight:800;line-height:1;letter-spacing:0;color:#fff}
+.launch-offer-price strong{font-family:Manrope,Arial,sans-serif;font-size:57px;font-weight:800;line-height:1.2;letter-spacing:-3px;white-space:nowrap;color:#fff}
+.launch-offer-price .per{font-family:Manrope,Arial,sans-serif;font-size:13px;font-weight:700;letter-spacing:0;color:#b5d3ff}
+@media(max-width:730px){.launch-offer-price strong{font-size:47px}}
+@media(max-width:380px){.launch-offer-price strong{font-size:39px}}
+
+/* Aviso claro da promoção no formulário */
+.offer-fineprint{color:#708097;font-size:10px;line-height:1.55;margin:13px 2px 0;text-align:center}
+@media(max-width:390px){.launch-offer-main{gap:6px}.launch-offer-price strong{font-size:clamp(34px,10vw,40px)}.launch-offer-period{font-size:8px}.price-promo{font-size:clamp(45px,13vw,59px)}}
